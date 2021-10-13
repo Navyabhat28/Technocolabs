@@ -50,7 +50,7 @@ def close_price(Year, Month, Day,StockName,Positive,Negative,Neutral,Volume,Open
         print()
         
     prediction = model.predict([[Year, Month, Day, StockName, Positive, Negative, Neutral,
-                                 Volume, Open, High, Low, Day_of_week]])
+                                 Volume, Open, High, Low, Day_of_week]])[0]
     print(prediction)
     return(prediction)
 
