@@ -1,14 +1,24 @@
 # PREDICTING THE VOLATALITY IN EQUITY MARKETS USING MACRO ECONOMIC HEADLINES
 
-## PROBLEM STATEMENT:
-
-A) INTRODUCTON:
+**A) INTRODUCTON:**
 				
 On June 2015, 2016 debt negotiations between Greek Govt and its creditors borke off abrubptly. Large market movements as a concequence of political and economic headlines are hardly uncommon, liquid markets are most suspectable to swing when the news breaks. Using VIX as a proxy for market volatality, we investigate how macroeconoic headlines affect the changes. Here, we predict equity market value using tweets from major news sources, investment banks and notable economists.
 
-B) TYPE OF PROBLEM:
+**B) PROBLEM STATEMENT:**
 				
 Twitter provides a plethora of market data. In this project we have extracted around 100,000 tweets from various accounts to predict the upward movements. Using this data we are researching how this economic news affects the market.
+
+**C) TYPE OF MACHINE LEARNING:**
+
+This project is Regression based problem, which is a predictive modelling technique that analyzes the relation between the target or dependent variable and independent variable in a dataset. 
+
+METRICS USED: The performance of a regression model must be reported as an error in those predictions and these error summarizes on average how close the predictions were to their expected values.
+
+Accuracy mectrics we have used in this project are:
+
+- Root Mean Squared Error(RMSE)
+- Mean Absolute Error(MAE)
+- Rsquared value(r2)
 				
 EXPLORATORY DATA ANALYSIS:
 				
